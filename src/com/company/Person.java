@@ -22,6 +22,10 @@ public class Person {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getSurname() {
         return surname;
     }
@@ -54,6 +58,6 @@ public class Person {
                 ", surname='" + surname + '\'' +
                 ", age=" + age +
                 ", sex='" + sex + '\'' +
-                '}';
+                '}' + "\n";
     }
 }

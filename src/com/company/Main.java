@@ -7,10 +7,10 @@ public class Main {
     public static void main(String[] args) {
         List<Person> people = List.of(
                 new Person("Иван", "Быстрый", 19, "male"),
-                new Person("Иван", "Иванов", 43, "male"),
+                new Person("Игорь", "Иванов", 43, "male"),
                 new Person("Игорь", "Ловкий", 20, "male"),
                 new Person("Сергей", "Смелый", 65, "male"),
-                new Person("Андрей", "Отважный", 36, "male"),
+                new Person("Иван", "Отважный", 36, "male"),
                 new Person("Дмитрий", "Важный", 27, "male"),
                 new Person("Валерий", "Неуклюжий", 42, "male"),
                 new Person("Антон", "Старый", 78, "male"),
@@ -23,9 +23,9 @@ public class Main {
                 new Person("Валерия", "Дождик", 63, "female"));
 
         PersonInterface<List<Person>> personInterface = new PersonInterfaceImpl();
-//        personInterface.sortByName(people);
-//        personInterface.sortBySurname(people);
-//        personInterface.findAllByName(people, "иван");
+//        personInterface.findByName(people, "Алла");
+//        personInterface.findBySurname(people, "Молодой");
+//        personInterface.countAllByName(people, "иван");
 //        personInterface.countNameLength(people);
 //        personInterface.changeCollection(people);
 //        personInterface.findMenForMilitary(people);

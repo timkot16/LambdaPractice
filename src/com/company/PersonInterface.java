@@ -1,11 +1,11 @@
 package com.company;
 
 public interface PersonInterface<T> {
-    void sortByName(T o);
+    void findByName(T o, String name);
 
-    void sortBySurname(T o);
+    void findBySurname(T o, String surname);
 
-    void findAllByName(T o, String name);
+    void countAllByName(T o, String name);
 
     void countNameLength(T o);
 
